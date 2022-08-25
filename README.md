@@ -1,5 +1,3 @@
-# MSiA423 Repository
-
 # Table of Contents
 * [Project Charter](#Project-Charter)
 * [Directory structure ](#Directory-structure)
