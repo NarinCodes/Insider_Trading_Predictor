@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link href="{{ url_for('static', filename='basic_response.css')}}" rel="stylesheet">
+</head>
+
+<body>
+    <div class="percentage" style="text-align:center">
+      <h2 style="text-align:center">Likelihood (%)</h2>
+      {% for prob in probabilities %}
+          <h4 style="text-align:center">The probability of short-term increase in stock price = {{ prob }}</h4>
+      {% endfor %}
+    </div>
+    <h5  style="text-align:center">
+        <a href = "{{ url_for('home') }}">Stockwatcher App</a>
+    </h5>
+    <div class="break">
+        <h4>Recent transactions made by the Congress official:</h4>
+    </div>
+
+    
+    <table class="center">
+        <thead>
+           <tr>
+              <th>Representative</th>
+              <th>Transaction Date</th>
+              <th>Ticker</th>
+              <th>Asset Description</th>
+              <th>Amount</th>
+              <th>Type</th>
+           </tr>
+        </thead>
+        <tbody>
+           {% for response in responses %}
+              <tr>
+                  <td>{{ response.representative }}</td>
+                  <td>{{ response.transaction_date }}</td>
+                  <td>{{ response.ticker }}</td>
+                  <td>{{ response.asset_description }}</td>
+                  <td>{{ response.amount }}</td>
+                  <td>{{ response.type }}</td>
+              </tr>
+           {% endfor %}
+        </tbody>
+    </table>
+    
+</body>
+</html>

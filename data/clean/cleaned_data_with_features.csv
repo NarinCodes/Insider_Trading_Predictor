@@ -1,0 +1,279 @@
+owner,ticker,type,amount,representative,trans_price,response
+self,FB,purchase,"$100,001 - $250,000",Hon. Michael T. McCaul,251.36000061035156,0
+dependent,FB,purchase,"$100,001 - $250,000",Hon. Michael T. McCaul,251.36000061035156,0
+self,FB,sale_full,"$1,000,001 - $5,000,000",Hon. Nancy Pelosi,268.44000244140625,0
+self,FB,purchase,"$1,001 - $15,000",Hon. Rohit Khanna,255.30999755859375,0
+undisclosed,FB,purchase,"$1,001 - $15,000",Hon. Dean Phillips,205.1000061035156,0
+joint,FB,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,224.91000366210935,0
+undisclosed,FB,purchase,"$1,001 - $15,000",Hon. Dean Phillips,263.0,0
+undisclosed,FB,purchase,"$1,001 - $15,000",Hon. Dean Phillips,249.02000427246097,0
+joint,FB,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,310.3900146484375,0
+joint,FB,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,342.94000244140625,0
+self,FB,sale_full,"$1,001 - $15,000",Hon. Alan S. Lowenthal,265.8599853515625,0
+self,FB,purchase,"$1,001 - $15,000",Hon. Rohit Khanna,265.8599853515625,0
+self,FB,purchase,"$100,001 - $250,000",Hon. Michael T. McCaul,269.3900146484375,0
+dependent,FB,purchase,"$250,001 - $500,000",Hon. Michael T. McCaul,269.3900146484375,0
+self,FB,purchase,"$250,001 - $500,000",Hon. Nancy Pelosi,221.77000427246097,0
+self,FB,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,220.63999938964844,0
+self,FB,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,220.63999938964844,0
+undisclosed,FB,purchase,"$1,001 - $15,000",Hon. Gilbert Cisneros,274.19000244140625,0
+undisclosed,FB,purchase,"$1,001 - $15,000",Hon. Gilbert Cisneros,268.1099853515625,0
+undisclosed,FB,purchase,"$1,001 - $15,000",Hon. Gilbert Cisneros,273.1600036621094,0
+undisclosed,FB,sale_partial,"$1,001 - $15,000",Hon. Gilbert Cisneros,267.0899963378906,0
+undisclosed,FB,sale_full,"$1,001 - $15,000",Hon. Kurt Schrader,382.0499877929687,0
+joint,FB,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,249.8300018310547,0
+undisclosed,FB,purchase,"$1,001 - $15,000",Hon. Gilbert Cisneros,263.5199890136719,0
+dependent,FB,purchase,"$1,001 - $15,000",Hon. Rohit Khanna,270.3900146484375,0
+self,FB,purchase,"$1,001 - $15,000",Hon. Rohit Khanna,270.3900146484375,0
+self,FB,purchase,"$1,001 - $15,000",Hon. Rohit Khanna,264.30999755859375,0
+self,FB,purchase,"$1,001 - $15,000",Hon. Rohit Khanna,260.3299865722656,0
+undisclosed,FB,sale_full,"$1,001 - $15,000",Hon. Kurt Schrader,238.7899932861328,0
+undisclosed,FB,sale_partial,"$1,001 - $15,000",Hon. Gilbert Cisneros,224.42999267578125,0
+joint,FB,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,306.17999267578125,0
+joint,FB,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,293.4100036621094,0
+joint,FB,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,335.3399963378906,0
+joint,FB,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,315.80999755859375,0
+joint,FB,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,312.2200012207031,0
+joint,FB,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,200.4199981689453,0
+self,FB,sale_partial,"$1,000,001 - $5,000,000",Hon. Nancy Pelosi,212.3500061035156,0
+undisclosed,FB,sale_full,"$1,001 - $15,000",Hon. Kurt Schrader,232.0,0
+undisclosed,FB,sale_partial,"$1,001 - $15,000",Hon. Dean Phillips,158.19000244140625,1
+joint,FB,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,204.7100067138672,0
+joint,MSFT,purchase,"$50,001 - $100,000",Hon. Josh Gottheimer,287.2257385253906,0
+undisclosed,MSFT,sale_full,"$15,001 - $50,000",Hon. Kurt Schrader,301.7076110839844,0
+undisclosed,MSFT,sale_full,"$1,001 - $15,000",Hon. Kurt Schrader,284.62591552734375,0
+joint,MSFT,purchase,"$50,001 - $100,000",Hon. Josh Gottheimer,263.3595275878906,1
+joint,MSFT,sale_full,"$15,001 - $50,000",Hon. Josh Gottheimer,263.3595275878906,1
+joint,MSFT,sale_full,"$500,001 - $1,000,000",Hon. Josh Gottheimer,301.05487060546875,0
+joint,MSFT,sale_full,"$250,001 - $500,000",Hon. Josh Gottheimer,301.05487060546875,0
+joint,MSFT,sale_full,"$1,000,001 - $5,000,000",Hon. Josh Gottheimer,301.05487060546875,0
+joint,MSFT,purchase,"$500,001 - $1,000,000",Hon. Josh Gottheimer,301.05487060546875,0
+joint,MSFT,purchase,"$1,000,001 - $5,000,000",Hon. Josh Gottheimer,301.05487060546875,0
+joint,MSFT,sale_full,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,171.49929809570312,1
+joint,MSFT,sale_full,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,170.50982666015625,1
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Kevin Hern,207.85513305664065,1
+joint,MSFT,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,226.6120452880859,1
+joint,MSFT,purchase,"$15,001 - $50,000",Hon. Josh Gottheimer,241.88880920410156,1
+joint,MSFT,sale_full,"$1,000,001 - $5,000,000",Hon. Josh Gottheimer,241.88880920410156,1
+joint,MSFT,sale_full,"$250,001 - $500,000",Hon. Josh Gottheimer,241.88880920410156,1
+joint,MSFT,sale_full,"$1,001 - $15,000",Hon. Josh Gottheimer,241.88880920410156,1
+joint,MSFT,purchase,"$1,000,001 - $5,000,000",Hon. Josh Gottheimer,241.88880920410156,1
+joint,MSFT,purchase,"$250,001 - $500,000",Hon. Josh Gottheimer,241.88880920410156,1
+joint,MSFT,sale_partial,"$15,001 - $50,000",Hon. Josh Gottheimer,241.88880920410156,1
+joint,MSFT,purchase,"$5,000,001 - $25,000,000",Hon. Josh Gottheimer,333.9862060546875,0
+joint,MSFT,purchase,"$1,000,001 - $5,000,000",Hon. Josh Gottheimer,333.9862060546875,0
+joint,MSFT,purchase,"$500,001 - $1,000,000",Hon. Josh Gottheimer,333.9862060546875,0
+joint,MSFT,sale_full,"$500,001 - $1,000,000",Hon. Josh Gottheimer,333.9862060546875,0
+joint,MSFT,sale_full,"$5,000,001 - $25,000,000",Hon. Josh Gottheimer,333.9862060546875,0
+joint,MSFT,purchase,"$50,001 - $100,000",Hon. Josh Gottheimer,179.48313903808594,1
+joint,MSFT,purchase,"$100,001 - $250,000",Hon. Josh Gottheimer,179.48313903808594,1
+joint,MSFT,purchase,"$250,001 - $500,000",Hon. Josh Gottheimer,179.48313903808594,1
+joint,MSFT,sale_full,"$50,001 - $100,000",Hon. Josh Gottheimer,179.48313903808594,1
+joint,MSFT,sale_full,"$250,001 - $500,000",Hon. Josh Gottheimer,179.48313903808594,1
+joint,MSFT,sale_full,"$100,001 - $250,000",Hon. Josh Gottheimer,179.48313903808594,1
+undisclosed,MSFT,purchase,"$15,001 - $50,000",Hon. Josh Gottheimer,166.70877075195312,1
+joint,MSFT,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,162.34669494628906,1
+joint,MSFT,sale_full,"$1,001 - $15,000",Hon. Josh Gottheimer,158.36058044433594,1
+joint,MSFT,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,158.36058044433594,1
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,158.36058044433594,1
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Kevin Hern,234.66751098632812,1
+self,MSFT,purchase,"$1,000,001 - $5,000,000",Hon. Nancy Pelosi,227.9579162597656,1
+joint,MSFT,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,324.7605285644531,0
+undisclosed,MSFT,purchase,"$1,001 - $15,000",Hon. Gilbert Cisneros,137.5442657470703,1
+joint,MSFT,purchase,"$250,001 - $500,000",Hon. Kevin Hern,152.93472290039062,1
+undisclosed,MSFT,purchase,"$1,001 - $15,000",Hon. Kurt Schrader,239.7462615966797,1
+undisclosed,MSFT,sale_full,"$1,001 - $15,000",Hon. Kurt Schrader,314.9935302734375,0
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Kevin Hern,182.98953247070312,1
+joint,MSFT,sale_full,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,171.01927185058594,1
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,211.15284729003903,1
+joint,MSFT,purchase,"$250,001 - $500,000",Hon. Kevin Hern,262.8735046386719,1
+joint,MSFT,purchase,"$100,001 - $250,000",Hon. Kevin Hern,262.8735046386719,1
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Kevin Hern,255.156494140625,1
+joint,MSFT,sale_full,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,211.6157989501953,1
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,161.24267578125,1
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,181.08538818359375,1
+self,MSFT,purchase,"$50,001 - $100,000",Hon. Nancy Pelosi,259.6199951171875,1
+self,MSFT,purchase,"$250,001 - $500,000",Hon. Nancy Pelosi,259.6199951171875,1
+joint,MSFT,purchase,"$15,001 - $50,000",Hon. Josh Gottheimer,143.58876037597656,1
+undisclosed,MSFT,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,143.58876037597656,1
+joint,MSFT,purchase,"$50,001 - $100,000",Hon. Josh Gottheimer,134.5563201904297,1
+joint,MSFT,sale_full,"$50,001 - $100,000",Hon. Josh Gottheimer,134.5563201904297,1
+joint,MSFT,purchase,"$100,001 - $250,000",Hon. Josh Gottheimer,134.5563201904297,1
+joint,MSFT,purchase,"$15,001 - $50,000",Hon. Josh Gottheimer,136.23153686523438,1
+joint,MSFT,purchase,"$50,001 - $100,000",Hon. Josh Gottheimer,136.23153686523438,1
+joint,MSFT,sale_full,"$50,001 - $100,000",Hon. Josh Gottheimer,136.23153686523438,1
+joint,MSFT,purchase,"$15,001 - $50,000",Hon. Josh Gottheimer,158.28370666503906,1
+joint,MSFT,purchase,"$100,001 - $250,000",Hon. Josh Gottheimer,158.28370666503906,1
+joint,MSFT,sale_full,"$50,001 - $100,000",Hon. Josh Gottheimer,158.28370666503906,1
+joint,MSFT,sale_full,"$100,001 - $250,000",Hon. Josh Gottheimer,158.28370666503906,1
+undisclosed,MSFT,purchase,"$50,001 - $100,000",Hon. Josh Gottheimer,145.32278442382812,1
+joint,MSFT,sale_full,"$15,001 - $50,000",Hon. Donald Sternoff Beyer,204.6806640625,1
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Kevin Hern,284.9263610839844,0
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Kevin Hern,331.6402587890625,0
+undisclosed,MSFT,purchase,"$1,001 - $15,000",Hon. Kurt Schrader,295.1484680175781,0
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Kevin Hern,200.25991821289065,1
+undisclosed,MSFT,sale_full,"$1,001 - $15,000",Hon. Kurt Schrader,191.71310424804688,1
+joint,MSFT,purchase,"$1,000,001 - $5,000,000",Hon. Josh Gottheimer,292.21392822265625,0
+joint,MSFT,purchase,"$500,001 - $1,000,000",Hon. Josh Gottheimer,292.21392822265625,0
+joint,MSFT,sale_full,"$500,001 - $1,000,000",Hon. Josh Gottheimer,292.21392822265625,0
+joint,MSFT,sale_full,"$1,000,001 - $5,000,000",Hon. Josh Gottheimer,292.21392822265625,0
+joint,MSFT,purchase,"$100,001 - $250,000",Hon. Kevin Hern,279.1208190917969,0
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,287.8296203613281,0
+joint,MSFT,sale_full,"$15,001 - $50,000",Hon. Donald Sternoff Beyer,298.095703125,0
+joint,MSFT,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,197.0376739501953,1
+undisclosed,MSFT,sale_full,"$1,001 - $15,000",Hon. Kurt Schrader,234.4794921875,1
+undisclosed,MSFT,purchase,"$1,001 - $15,000",Hon. Kurt Schrader,239.13409423828125,1
+joint,MSFT,purchase,"$100,001 - $250,000",Hon. Josh Gottheimer,211.1923370361328,1
+joint,MSFT,purchase,"$250,001 - $500,000",Hon. Josh Gottheimer,211.1923370361328,1
+joint,MSFT,purchase,"$500,001 - $1,000,000",Hon. Josh Gottheimer,211.1923370361328,1
+joint,MSFT,sale_full,"$250,001 - $500,000",Hon. Josh Gottheimer,211.1923370361328,1
+joint,MSFT,sale_full,"$500,001 - $1,000,000",Hon. Josh Gottheimer,211.1923370361328,1
+joint,MSFT,sale_full,"$100,001 - $250,000",Hon. Josh Gottheimer,211.1923370361328,1
+joint,MSFT,purchase,"$15,001 - $50,000",Hon. Josh Gottheimer,321.16619873046875,0
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,306.3188171386719,0
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Kevin Hern,295.40692138671875,0
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,153.75892639160156,1
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Kevin Hern,161.7810821533203,1
+joint,MSFT,purchase,"$1,001 - $15,000",Hon. Kevin Hern,202.24082946777344,1
+self,MSFT,purchase,"$100,001 - $250,000",Hon. Nancy Pelosi,158.71473693847656,1
+self,MSFT,purchase,"$500,001 - $1,000,000",Hon. Nancy Pelosi,174.95750427246094,1
+joint,MSFT,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,162.14353942871094,1
+undisclosed,MSFT,sale_full,"$15,001 - $50,000",Hon. Josh Gottheimer,181.1489715576172,1
+joint,MSFT,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,179.43455505371094,1
+joint,TSLA,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,937.4099731445312,0
+joint,TSLA,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,936.719970703125,0
+joint,TSLA,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,599.0499877929688,1
+joint,TSLA,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,907.3400268554688,0
+joint,TSLA,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,303.3599853515625,1
+self,TSLA,purchase,"$500,001 - $1,000,000",Hon. Nancy Pelosi,640.3400268554688,1
+undisclosed,TSLA,purchase,"$50,001 - $100,000",Hon. Gilbert Cisneros,640.3400268554688,1
+self,TSLA,purchase,"$1,000,001 - $5,000,000",Hon. Nancy Pelosi,871.5999755859375,0
+joint,TSLA,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,670.0,1
+joint,TSLA,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,707.9400024414062,1
+joint,TSLA,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,668.0599975585938,1
+undisclosed,TSLA,purchase,"$1,001 - $15,000",Hon. Dean Phillips,735.1099853515625,0
+joint,TSLA,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,691.0499877929688,1
+joint,TSLA,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,709.4400024414062,1
+joint,TSLA,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,429.9500122070313,1
+joint,TSLA,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,69.01799774169922,1
+joint,TSLA,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,408.5,1
+joint,TSLA,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,408.0899963378906,1
+joint,TSLA,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,864.27001953125,0
+undisclosed,TSLA,purchase,"$50,001 - $100,000",Hon. Dean Phillips,695.0,1
+joint,TSLA,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,150.7779998779297,1
+joint,TSLA,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,163.37600708007812,1
+undisclosed,AAPL,sale_full,"$1,001 - $15,000",Hon. Kurt Schrader,145.24868774414062,1
+joint,AAPL,sale_full,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,69.73046112060547,1
+undisclosed,AAPL,purchase,"$1,001 - $15,000",Hon. Dean Phillips,105.98934936523438,1
+undisclosed,AAPL,purchase,"$15,001 - $50,000",Hon. Josh Gottheimer,72.0649185180664,1
+joint,AAPL,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,75.82740020751953,1
+self,AAPL,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,73.78591918945312,1
+self,AAPL,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,73.78591918945312,1
+joint,AAPL,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,79.679443359375,1
+joint,AAPL,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,76.81497955322266,1
+joint,AAPL,purchase,"$15,001 - $50,000",Hon. Donald Sternoff Beyer,76.81497955322266,1
+self,AAPL,sale_full,"$1,000,001 - $5,000,000",Hon. Nancy Pelosi,86.8477783203125,1
+undisclosed,AAPL,purchase,"$15,001 - $50,000",Hon. Gilbert Cisneros,117.5902862548828,1
+joint,AAPL,sale_full,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,71.18334197998047,1
+joint,AAPL,sale_full,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,74.79580688476562,1
+joint,AAPL,purchase,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,113.73670196533205,1
+joint,AAPL,purchase,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,118.33364868164062,1
+joint,AAPL,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,91.69969177246094,1
+undisclosed,AAPL,purchase,"$15,001 - $50,000",Hon. Gilbert Cisneros,114.1028060913086,1
+joint,AAPL,purchase,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,78.04576110839844,1
+joint,AAPL,purchase,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,78.55357360839844,1
+self,AAPL,purchase,"$500,001 - $1,000,000",Hon. Nancy Pelosi,147.11000061035156,1
+self,AAPL,purchase,"$250,001 - $500,000",Hon. Nancy Pelosi,140.36000061035156,1
+joint,AAPL,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,72.13139343261719,1
+joint,AAPL,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,55.250999450683594,1
+joint,AAPL,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,56.45022964477539,1
+joint,AAPL,sale_full,"$15,001 - $50,000",Hon. Donald Sternoff Beyer,95.86021423339844,1
+joint,AAPL,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,144.15640258789062,1
+self,AAPL,purchase,"$250,001 - $500,000",Hon. Nancy Pelosi,130.71315002441406,1
+self,AAPL,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,119.60411071777344,1
+self,AAPL,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,119.60411071777344,1
+joint,AAPL,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,122.4810028076172,1
+joint,AAPL,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,123.07658386230467,1
+undisclosed,AAPL,sale_full,"$1,001 - $15,000",Hon. Kurt Schrader,166.17584228515625,0
+undisclosed,AAPL,sale_full,"$1,001 - $15,000",Hon. Kurt Schrader,86.35148620605469,1
+joint,AAPL,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,162.7109375,0
+joint,AAPL,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,154.86245727539062,0
+self,AAPL,sale_partial,"$500,001 - $1,000,000",Hon. Nancy Pelosi,177.71214294433594,0
+joint,AAPL,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,87.31692504882812,1
+self,AAPL,purchase,"$100,001 - $250,000",Hon. Nancy Pelosi,124.71746063232422,1
+joint,AAPL,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,149.17218017578125,0
+joint,AAPL,purchase,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,69.76927947998047,1
+joint,AAPL,purchase,"$15,001 - $50,000",Hon. Josh Gottheimer,167.15440368652344,0
+self,AAPL,sale_partial,"$500,001 - $1,000,000",Hon. Nancy Pelosi,117.63983917236328,1
+self,AAPL,purchase,"$1,000,001 - $5,000,000",Hon. Nancy Pelosi,161.9653778076172,0
+self,AAPL,sale_partial,"$500,001 - $1,000,000",Hon. Nancy Pelosi,76.57608795166016,1
+self,AAPL,sale_partial,"$1,000,001 - $5,000,000",Hon. Nancy Pelosi,76.57608795166016,1
+joint,AAPL,purchase,"$1,001 - $15,000",Hon. Josh Gottheimer,114.32048034667967,1
+undisclosed,AAPL,purchase,"$1,001 - $15,000",Hon. Dean Phillips,60.31388092041016,1
+joint,AAPL,sale_partial,"$1,001 - $15,000",Hon. Josh Gottheimer,68.19387817382812,1
+undisclosed,AAPL,sale_full,"$15,001 - $50,000",Hon. Josh Gottheimer,77.7686767578125,1
+self,RUN,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,20.799999237060547,1
+self,RUN,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,20.799999237060547,1
+self,RUN,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,20.90999984741211,1
+self,RUN,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,20.90999984741211,1
+self,RUN,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,20.270000457763672,1
+self,RUN,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,20.270000457763672,1
+self,RUN,purchase,"$1,001 - $15,000",Hon. Alan S. Lowenthal,65.3499984741211,0
+self,RUN,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,30.09000015258789,0
+self,RUN,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,30.09000015258789,0
+self,RUN,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,19.739999771118164,1
+self,RUN,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,20.0,1
+self,RUN,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,20.0,1
+self,RUN,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,19.84000015258789,1
+self,RUN,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,19.84000015258789,1
+self,RUN,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,19.969999313354492,1
+self,RUN,purchase,"$1,001 - $15,000",Hon. Alan S. Lowenthal,9.109999656677246,1
+self,RUN,purchase,"$1,001 -",Hon. Alan S. Lowenthal,9.109999656677246,1
+self,RUN,purchase,"$1,001 - $15,000",Hon. Alan S. Lowenthal,9.920000076293944,1
+self,RUN,purchase,"$1,001 -",Hon. Alan S. Lowenthal,9.920000076293944,1
+self,RUN,purchase,"$1,001 - $15,000",Hon. Alan S. Lowenthal,8.899999618530273,1
+self,RUN,purchase,"$1,001 -",Hon. Alan S. Lowenthal,8.899999618530273,1
+self,RUN,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,50.790000915527344,0
+self,RUN,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,50.790000915527344,0
+self,RUN,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,50.029998779296875,0
+self,RUN,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,50.029998779296875,0
+self,RUN,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,19.895000457763672,1
+self,RUN,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,19.895000457763672,1
+self,RUN,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,19.799999237060547,1
+self,RUN,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,19.799999237060547,1
+joint,RUN,purchase,"$1,001 - $15,000",Hon. Alan S. Lowenthal,31.809999465942383,0
+self,RUN,purchase,"$1,001 - $15,000",Hon. Alan S. Lowenthal,53.380001068115234,0
+self,RUN,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,76.44999694824219,0
+self,RUN,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,76.44999694824219,0
+self,RUN,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,78.05000305175781,0
+self,RUN,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,78.05000305175781,0
+self,RUN,sale_partial,"$1,001 -",Hon. Alan S. Lowenthal,78.56999969482422,0
+undisclosed,NTAP,purchase,"$1,001 - $15,000",Hon. Dean Phillips,42.19184875488281,1
+joint,AMZN,sale_full,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,118.8000030517578,1
+undisclosed,AMZN,purchase,"$1,001 - $15,000",Hon. Dean Phillips,149.9929962158203,0
+undisclosed,AMZN,purchase,"$15,001 - $50,000",Hon. Josh Gottheimer,98.97949981689452,1
+joint,AMZN,purchase,"$100,001 - $250,000",Hon. Kevin Hern,97.77449798583984,1
+undisclosed,AMZN,purchase,"$15,001 - $50,000",Hon. Gilbert Cisneros,155.8509979248047,0
+joint,AMZN,sale_full,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,114.302001953125,1
+undisclosed,AMZN,purchase,"$15,001 - $50,000",Hon. Gilbert Cisneros,160.55050659179688,0
+joint,AMZN,purchase,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,94.15799713134766,1
+joint,AMZN,purchase,"$1,001 - $15,000",Hon. Donald Sternoff Beyer,108.51100158691406,1
+undisclosed,AMZN,purchase,"$15,001 - $50,000",Hon. Josh Gottheimer,90.39199829101562,1
+joint,AMZN,sale_full,"$15,001 - $50,000",Hon. Donald Sternoff Beyer,154.1999969482422,0
+self,AMZN,purchase,"$50,001 - $100,000",Hon. Michael T. McCaul,167.6074981689453,0
+dependent,AMZN,purchase,"$50,001 - $100,000",Hon. Michael T. McCaul,167.6074981689453,0
+self,AMZN,purchase,"$1,000,001 - $5,000,000",Hon. Nancy Pelosi,93.89700317382812,1
+self,AMZN,sale_full,"$250,001 - $500,000",Hon. Nancy Pelosi,93.89700317382812,1
+self,AMZN,purchase,"$1,001 - $15,000",Hon. Alan S. Lowenthal,84.4574966430664,1
+self,AMZN,sale_full,"$1,001 - $15,000",Hon. Alan S. Lowenthal,168.39999389648438,0
+self,AMZN,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,168.39999389648438,0
+undisclosed,AMZN,purchase,"$1,001 - $15,000",Hon. Gilbert Cisneros,162.84649658203125,0
+self,AMZN,sale_partial,"$1,001 - $15,000",Hon. Alan S. Lowenthal,160.0,0
+joint,AMZN,purchase,"$1,001 - $15,000",Hon. Kevin Hern,152.760498046875,0
+joint,AMZN,purchase,"$50,001 - $100,000",Hon. Kevin Hern,166.37950134277344,0
+joint,AMZN,sale_full,"$15,001 - $50,000",Hon. Donald Sternoff Beyer,153.56300354003906,0
+undisclosed,AMZN,sale_partial,"$1,001 - $15,000",Hon. Gilbert Cisneros,154.0334930419922,0
+undisclosed,AMZN,purchase,"$500,001 - $1,000,000",Hon. Nancy Pelosi,160.1540069580078,0
+undisclosed,AMZN,purchase,"$1,001 - $15,000",Hon. Dean Phillips,95.94149780273438,1
+undisclosed,AMZN,sale_partial,"$1,001 - $15,000",Hon. Gilbert Cisneros,102.13800048828124,1
+undisclosed,AMZN,sale_full,"$50,001 - $100,000",Hon. Josh Gottheimer,121.31300354003906,0

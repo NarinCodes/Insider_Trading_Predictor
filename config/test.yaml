@@ -1,0 +1,172 @@
+create_db:
+
+  local_path: data/external/recent_transactions.csv
+
+clean:
+
+  transact:
+    input_path_1: data/s3_downloads/stockwatcher.csv
+    input_path_2: data/s3_downloads/transact_price.csv
+  
+  current:
+    local_path: data/s3_downloads/current_price.csv
+    output_path: data/clean/cleaned_data.csv
+  
+  add_response:
+    input_data: data/clean/cleaned_data.csv
+  
+  filter:
+    columns: ['transaction_date',
+              'disclosure_date',
+              'disclosure_year',
+              'cap_gains_over_200_usd',
+              'asset_description',
+              'ptr_link',
+              'date_x',
+              'date_y',
+              'district',
+              'current_price']
+  
+  impute_missing:
+    save_path: data/clean/cleaned_data_with_features.csv
+    column: 'owner'
+    replacement: 'undisclosed'
+    missing_val: '--'
+
+  download_s3:
+      rt:
+        sep: ','
+        local_path: data/s3_downloads/recent_transactions.csv
+        file_name: recent_transactions
+      sw:
+        sep: ','
+        local_path: data/s3_downloads/stockwatcher.csv
+        file_name: stockwatcher
+      cp: 
+        sep: ','
+        local_path: data/s3_downloads/current_price.csv
+        file_name: current_price
+      tp:
+        sep: ','
+        local_path: data/s3_downloads/transact_price.csv
+        file_name: transact_price
+
+train:
+
+  get_model:
+
+    local_path: data/clean/cleaned_data_with_features.csv
+    categ: ['owner',
+            'ticker',
+            'type',
+            'amount',
+            'representative']
+    response: 'response'
+    results_path: null
+    matrix_path: null
+    roc_path: null
+    model_path: models/model.pkl
+    encoder_path: models/encoder.pkl
+    scaler_path: models/scaler.pkl
+    test_size: 0.20
+    random_state: 29
+    max_iter: 5000
+    output_data_path: data/clean
+    pred_path_1: null
+    pred_path_2: null
+
+  get_preds:
+
+    local_path: data/clean/cleaned_data_with_features.csv
+    categ: ['owner',
+            'ticker',
+            'type',
+            'amount',
+            'representative']
+    response: 'response'
+    results_path: null
+    matrix_path: null
+    roc_path: null
+    model_path: null
+    encoder_path: null
+    scaler_path: null
+    test_size: 0.20
+    random_state: 29
+    max_iter: 5000
+    output_data_path: null
+    pred_path_1: models/predicted_classes.csv
+    pred_path_2: models/predicted_probs.csv
+
+  get_metrics:
+
+    local_path: data/clean/cleaned_data_with_features.csv
+    categ: ['owner',
+            'ticker',
+            'type',
+            'amount',
+            'representative']
+    response: 'response'
+    results_path: models/model_results.yaml
+    matrix_path: figures/confusion_matrix.png
+    roc_path: figures/aucroc_curve.png
+    model_path: null
+    encoder_path: null
+    scaler_path: null
+    test_size: 0.20
+    random_state: 29
+    max_iter: 5000
+    output_data_path: null
+    pred_path_1: null
+    pred_path_2: null
+
+acquire_new:
+  get_transactions:
+    endpoint: https://house-stock-watcher-data.s3-us-west-2.amazonaws.com/data/all_transactions.json
+    save_path_1: data/external/stockwatcher.csv
+    save_path_2: data/external/recent_transactions.csv
+    tickers: ["AAPL",
+              "AMZN",
+              "FB",
+              "MSFT",
+              "NTAP",
+              "NVDA",
+              "RUN",
+              "TSLA"]
+    representatives: ["Hon. Alan S. Lowenthal",
+                      "Hon. Dean Phillips",
+                      "Hon. Donald Sternoff Beyer",
+                      "Hon. Gilbert Cisneros",
+                      "Hon. Josh Gottheimer",
+                      "Hon. Kevin Hern",
+                      "Hon. Kurt Schrader",
+                      "Hon. Michael T. McCaul",
+                      "Hon. Nancy Pelosi",
+                      "Hon. Rohit Khanna"]
+    attempts: 4
+    wait: 3
+    wait_multiple: 2
+  get_stock_price:
+    input_path: data/external/stockwatcher.csv
+    output_path_1: data/external/transact_price.csv
+    output_path_2: data/external/current_price.csv
+    tickers: ["AAPL",
+              "AMZN",
+              "FB",
+              "MSFT",
+              "NTAP",
+              "NVDA",
+              "RUN",
+              "TSLA"]
+  upload_s3:
+    recent_transactions:
+      file_name: recent_transactions
+      local_path: data/external/recent_transactions.csv
+    stockwatcher:
+      file_name: stockwatcher
+      local_path: data/external/stockwatcher.csv
+    current_price:
+      file_name: current_price
+      local_path: data/external/current_price.csv 
+    transact_price:
+      file_name: transact_price
+      local_path: data/external/transact_price.csv 

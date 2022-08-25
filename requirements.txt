@@ -1,0 +1,13 @@
+Flask-SQLAlchemy==2.5.1
+SQLAlchemy==1.4.36
+PyYAML==6.0
+Flask==2.1.2
+PyMySQL==1.0.2
+pandas==1.4.2
+requests==2.27.1
+boto3==1.21.14
+fsspec==2022.5.0
+s3fs==2022.5.0
+scikit-learn==1.1.1
+matplotlib==3.5.2
+yfinance==0.1.70

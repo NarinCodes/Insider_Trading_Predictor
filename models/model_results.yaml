@@ -1,0 +1,58 @@
+- '0':
+    f1-score: 0.8292682926829269
+    precision: 0.9444444444444444
+    recall: 0.7391304347826086
+    support: 23
+  '1':
+    f1-score: 0.9014084507042254
+    precision: 0.8421052631578947
+    recall: 0.9696969696969697
+    support: 33
+  accuracy: 0.875
+  macro avg:
+    f1-score: 0.8653383716935761
+    precision: 0.8932748538011696
+    recall: 0.8544137022397892
+    support: 56
+  weighted avg:
+    f1-score: 0.871779457231192
+    precision: 0.8841374269005848
+    recall: 0.875
+    support: 56
+- AUC: '0.9486166007905138'
+  Coefficients:
+    amount_$1,000,001 - $5,000,000: -0.2955746112320717
+    amount_$1,001 -: 0.21087961374465294
+    amount_$1,001 - $15,000: 0.09526524627434266
+    amount_$100,001 - $250,000: 0.17775125060420538
+    amount_$15,001 - $50,000: -0.14677470183431163
+    amount_$250,001 - $500,000: 0.16260392286636324
+    amount_$5,000,001 - $25,000,000: -0.21956672877127956
+    amount_$50,001 - $100,000: 0.14775300063828525
+    amount_$500,001 - $1,000,000: -0.3769572604844834
+    owner_dependent: -0.10984915180563191
+    owner_joint: -0.4809746725253196
+    owner_self: 0.43033258280717357
+    owner_undisclosed: 0.16873768625287944
+    representative_Hon. Alan S. Lowenthal: -0.31193656155159366
+    representative_Hon. Dean Phillips: -0.22764535458138294
+    representative_Hon. Donald Sternoff Beyer: 0.5275853609243855
+    representative_Hon. Gilbert Cisneros: -0.20600325610728473
+    representative_Hon. Josh Gottheimer: 0.3936992077871411
+    representative_Hon. Kevin Hern: 0.06798426170614764
+    representative_Hon. Kurt Schrader: -0.29936488008539347
+    representative_Hon. Michael T. McCaul: -0.5605466231394187
+    representative_Hon. Nancy Pelosi: 0.09073910102181121
+    representative_Hon. Rohit Khanna: -0.2318320457635044
+    ticker_AAPL: -0.24442625543768304
+    ticker_AMZN: -0.5565276910424705
+    ticker_FB: -1.3439778074962538
+    ticker_MSFT: 0.8815736514052719
+    ticker_NTAP: 0.0
+    ticker_RUN: -1.3093779364618783
+    ticker_TSLA: 2.982840488642389
+    trans_price: -3.5199879371097116
+    type_purchase: 0.007132995994937381
+    type_sale_full: -0.008176869066981864
+    type_sale_partial: -0.0008481939103467226
+  Log Loss: '0.34404277754187734'

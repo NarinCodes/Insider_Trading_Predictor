@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bungee&family=Days+One&family=Emblema+One&family=Fascinate&family=Julius+Sans+One&family=Molle:ital@1&family=Montserrat+Alternates&family=Nova+Round&family=Poller+One&display=swap');
+
+body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Times New Roman", Times, serif;
+  background-color:#ede8ee91;
+}
+.percentage {
+  display: inline-block;
+  text-align: right;
+  padding-left: 5%;
+}
+.response {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+h1 {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.break{
+  width:90%;
+  height: 55%;
+  background-color:#e5cff7;
+  margin-left:60px;
+  display: block;
+  text-align: center;
+  color: rgba(32, 23, 23, 0.658);
+  font-size: 20px;
+  font-weight: 400;
+}
+.button {
+  background-color: #a741fa; 
+  color: #feffff;
+  padding: 9px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+.r_title{
+  width:105%;
+  height: 25%;
+  background-color:#7EB9E6;
+  margin-left:-10px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}

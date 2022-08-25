@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="static/basic.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="title">
+    <h1>
+      House Stockwatcher: Identify possible instances of Insider Trading 
+    </h1>
+    <p>by: Narin Dhatwalia</p>
+    <p>
+      This app allows users to predict the profitability of stock investments made 
+      by members of U.S. Congress. The underlying model provides a probability score
+      to quantify whether an investment made by a U.S. lawmaker will be profitable in the near future. 
+      Results from this app can benefit retail investors while picking their own stocks, 
+      as well as watchdog groups to investigate possible cases of insider trading.
+    </p>
+  </div>
+  <div class="break">
+    <h2>Find probability of increase in stock price immediately after a U.S. Congress official has invested</h2>
+  </div>
+  <div class="app">
+
+    <form action="{{ url_for('home') }}" method=post class=form>
+
+      <label for="representative-select">What is the name of the U.S. Congress official?</label>
+      <select name="representative" id="representative-select">
+         <option value="">--Please choose an option--</option>
+         <option value="Hon. Alan S. Lowenthal">Alan S Lowenthal</option>
+         <option value="Hon. Dean Phillips">Dean Phillips</option>
+         <option value="Hon. Donald Sternoff Beyer">Donald Sternoff Beyer</option>
+         <option value="Hon. Gilbert Cisneros">Gilbert Cisneros</option>
+         <option value="Hon. Josh Gottheimer">Josh Gottheimer</option>
+         <option value="Hon. Kevin Hern">Kevin Hern</option>
+         <option value="Hon. Kurt Schrader">Kurt Schrader</option>
+         <option value="Hon. Michael T. McCaul">Michael T McCaul</option>
+         <option value="Hon. Nancy Pelosi">Nancy Pelosi</option>
+         <option value="Hon. Rohit Khanna">Rohit Khanna</option>
+      </select>
+      <br>
+      <br>
+      <br>
+      <label for="ticker-select">Which company is the transaction related to?</label>
+      <select name="ticker" id="ticker-select">
+         <option value="">--Please choose an option--</option>
+         <option value="AAPL">Apple</option>
+         <option value="AMZN">Amazon</option>
+         <option value="FB">Facebook</option>
+         <option value="MSFT">Microsoft</option>
+         <option value="NTAP">NetApp</option>
+         <option value="NVDA">NVIDIA</option>
+         <option value="RUN">Sunrun</option>
+         <option value="TSLA">Tesla</option>
+      </select>
+      <br>
+      <br>
+      <br>
+      <label for="type-select">What type of transaction is it?</label>
+      <select name="type" id="type-select">
+         <option value="">--Please choose an option--</option>
+         <option value="purchase">Purchase</option>
+         <option value="sale_full">Full Sale</option>
+         <option value="sale_partial">Partial Sale</option>
+      </select>
+      <br>
+      <br>
+      <br>
+      <label for="owner-select">Who is the owner of the stock?</label>
+      <select name="owner" id="owner-select">
+         <option value="">--Please choose an option--</option>
+         <option value="self">Self</option>
+         <option value="joint">Joint</option>
+         <option value="dependent">Dependent</option>
+         <option value="undisclosed">Undisclosed</option>
+      </select>
+      <br>
+      <br>
+      <br>
+      <label for="amount-select">What is the dollar value of the transaction?</label>
+      <select name="amount" id="amount-select">
+         <option value="">--Please choose an option--</option>
+         <option value="$1,001 -">$1,001 -</option>
+         <option value="$1,001 - $15,000">$1,001 - $15,000</option>
+         <option value="$15,001 - $50,000">$15,001 - $50,000</option>
+         <option value="$50,001 - $100,000">$50,001 - $100,000</option>
+         <option value="$100,001 - $250,000">$100,001 - $250,000</option>
+         <option value="$250,001 - $500,000">$250,001 - $500,000</option>
+         <option value="$500,001 - $1,000,000">$500,001 - $1,000,000</option>
+         <option value="$1,000,001 - $5,000,000">$1,000,001 - $5,000,000</option>
+         <option value="$5,000,001 - $25,000,000">$5,000,001 - $25,000,000</option>
+      </select>
+      <br>
+      <br>
+      <h4>What price is the company's stock trading at today?</h4>
+      <input type="text" name="trans_price" value="">
+      <br>
+      <br>
+      <input type=submit value=Calculate class="button">
+    </form>
+  </div>
+</body>
+</html>

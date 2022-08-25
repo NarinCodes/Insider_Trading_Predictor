@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="{{ url_for('static', filename='basic.css')}}" rel="stylesheet">
+</head>
+
+<body>
+    <h3>
+         <a href = "{{ url_for('home') }}">Stockwatcher App</a>
+    </h3>
+
+    <div class="alert alert-danger" role="alert">
+  <p class="alert-link">We're sorry. There was a problem. Please try again. </p>
+  <p>Make sure to fill the form completely before submitting.</p>
+    </div>
+
+</body>
+</html>
